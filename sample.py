@@ -3,11 +3,8 @@
 import copy
 import time
 import argparse
-
 import cv2 as cv
 from pupil_apriltags import Detector
-
-
 def get_args():
     parser = argparse.ArgumentParser()
 
